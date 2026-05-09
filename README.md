@@ -1,34 +1,16 @@
-# CLOUD_BASED_PHOTO_GALLERY_SYSTEM
-A full-stack cloud-based photo gallery application developed to allow users to upload, store, manage, and view images securely online. The platform provides a user-friendly interface with cloud storage integration for efficient photo management and accessibility from anywhere.
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Features
-User Registration and Login
-Secure Image Upload and Storage
-Cloud Integration for Photo Management
-View, Download, and Delete Photos
-Responsive and Interactive User Interface
-Image Preview and Gallery Display
-REST API Integration
-Secure Backend Authentication
-Technologies Used
-Frontend: React, HTML, CSS, JavaScript
-Backend: Java, Spring Boot
-Cloud Services: AWS S3
-Database: MySQL / DynamoDB
-Build Tool: Maven
-Version Control: Git & GitHub
-Project Objectives
-Build a secure cloud-based image storage platform
-Implement frontend and backend integration
-Learn cloud service integration using AWS
-Manage image uploads and storage efficiently
-Improve full-stack Java development skills
-Future Enhancements
-Drag and Drop Image Upload
-Image Sharing via Links
-AI-Based Image Tagging
-Photo Albums and Categories
-Image Compression and Optimization
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
